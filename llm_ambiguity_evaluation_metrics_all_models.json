@@ -1,0 +1,134 @@
+{
+  "gpt-3.5-turbo": {
+    "Ambiguity Detection": {
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "Type Classification (Macro-Averaged)": {
+      "Accuracy": 0.6496000000000001,
+      "Precision": 0.3945378949300518,
+      "Recall": 0.538428419499645,
+      "F1": 0.44721688960984995
+    },
+    "Per-Type Metrics": {
+      "SemanticAmbiguity": {
+        "accuracy": 0.5,
+        "precision": 0.49382716049382713,
+        "recall": 0.9836065573770492,
+        "f1": 0.6575342465753424,
+        "tp": 120.0,
+        "tn": 5.0,
+        "fp": 123.0,
+        "fn": 2.0
+      },
+      "ScopeAmbiguity": {
+        "accuracy": 0.492,
+        "precision": 0.40714285714285714,
+        "recall": 0.5643564356435643,
+        "f1": 0.4730290456431535,
+        "tp": 57.0,
+        "tn": 66.0,
+        "fp": 83.0,
+        "fn": 44.0
+      },
+      "ActorAmbiguity": {
+        "accuracy": 0.48,
+        "precision": 0.12941176470588237,
+        "recall": 0.16417910447761194,
+        "f1": 0.14473684210526316,
+        "tp": 11.0,
+        "tn": 109.0,
+        "fp": 74.0,
+        "fn": 56.0
+      },
+      "DependencyAmbiguity": {
+        "accuracy": 0.792,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0.0,
+        "tn": 198.0,
+        "fp": 0.0,
+        "fn": 52.0
+      },
+      "PriorityAmbiguity": {
+        "accuracy": 0.984,
+        "precision": 0.9423076923076923,
+        "recall": 0.98,
+        "f1": 0.9607843137254902,
+        "tp": 49.0,
+        "tn": 197.0,
+        "fp": 3.0,
+        "fn": 1.0
+      }
+    }
+  },
+  "deepseek-chat": {
+    "Ambiguity Detection": {
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "Type Classification (Macro-Averaged)": {
+      "Accuracy": 0.6768,
+      "Precision": 0.46579747416762346,
+      "Recall": 0.6436216935126348,
+      "F1": 0.5131936206948243
+    },
+    "Per-Type Metrics": {
+      "SemanticAmbiguity": {
+        "accuracy": 0.488,
+        "precision": 0.488,
+        "recall": 1.0,
+        "f1": 0.6559139784946236,
+        "tp": 122.0,
+        "tn": 0.0,
+        "fp": 128.0,
+        "fn": 0.0
+      },
+      "ScopeAmbiguity": {
+        "accuracy": 0.452,
+        "precision": 0.4230769230769231,
+        "recall": 0.9801980198019802,
+        "f1": 0.591044776119403,
+        "tp": 99.0,
+        "tn": 14.0,
+        "fp": 135.0,
+        "fn": 2.0
+      },
+      "ActorAmbiguity": {
+        "accuracy": 0.688,
+        "precision": 0.417910447761194,
+        "recall": 0.417910447761194,
+        "f1": 0.417910447761194,
+        "tp": 28.0,
+        "tn": 144.0,
+        "fp": 39.0,
+        "fn": 39.0
+      },
+      "DependencyAmbiguity": {
+        "accuracy": 0.792,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0.0,
+        "tn": 198.0,
+        "fp": 0.0,
+        "fn": 52.0
+      },
+      "PriorityAmbiguity": {
+        "accuracy": 0.964,
+        "precision": 1.0,
+        "recall": 0.82,
+        "f1": 0.9010989010989011,
+        "tp": 41.0,
+        "tn": 200.0,
+        "fp": 0.0,
+        "fn": 9.0
+      }
+    }
+  }
+}

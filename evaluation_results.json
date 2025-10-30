@@ -5,7 +5,7 @@
       {
         "id": "diagnostic#01",
         "sentence": "The absolute time of input will be associated with each sensed data item for <referential>its</referential> complete lifecycle, including permanent storage.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "sensed data item"
@@ -13,31 +13,31 @@
       {
         "id": "diagnostic#02",
         "sentence": "Each sensed data item will be qualified as to <referential>its</referential> certitude during the acquisition process.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "Each sensed data item",
-        "pred_detected": "innocuous",
+        "pred_detected": "nocuous",
         "pred_disambiguated": "sensed data item"
       },
       {
         "id": "diagnostic#03",
         "sentence": "Sensed data input to the tool shall be validated with respect to <referential>its</referential> expected range of values.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "sensed data input",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Sensed data input"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "expected range of values"
       },
       {
         "id": "diagnostic#04",
         "sentence": "The faults identified and <referential>their</referential> causes and sources, shall be saved to permanent storage for subsequent analysis.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the faults identified",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "faults identified"
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "The faults identified"
       },
       {
         "id": "diagnostic#05",
         "sentence": "The tool shall monitor the unit under diagnosis, either in real time or batch mode, for an indefinite period of time or until input data are no longer available, and log diagnostic results as <referential>they</referential> are determined.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "diagnostic results"
@@ -45,7 +45,7 @@
       {
         "id": "diagnostic#06",
         "sentence": "Selecting the “Configure Diagnostics” menu item of the main menu entitled “File” shall display the configuration window, making <referential>it</referential> the current window, modal to the main window.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "the configuration window"
@@ -53,7 +53,7 @@
       {
         "id": "diagnostic#07",
         "sentence": "Entering a file name shall cause the permanent storage of the modified parameters and <referential>their</referential> immediate use by the diagnostic operations after confirmatory responses by the user.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the modified parameters",
         "pred_detected": "nocuous",
         "pred_disambiguated": "modified parameters"
@@ -61,608 +61,15 @@
       {
         "id": "diagnostic#08",
         "sentence": "If the user does not confirm the request to save, <referential>it</referential> will not be performed.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the request to save",
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the request to save"
+        "pred_disambiguated": "request to save"
       },
       {
         "id": "diagnostic#09",
         "sentence": "If the user does not confirm the request to relay the modified parameters to the diagnostic processing immediately, <referential>it</referential> will not be performed.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "request to relay the modified parameters to the diagnostic processing"
-      },
-      {
-        "id": "diagnostic#10",
-        "sentence": "The subsystems window, condition window, and diagnostic information window shall display a title that indicates <referential>its</referential> specific location or absolute path in the navigation hierarchy of windows.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "diagnostic information window"
-      },
-      {
-        "id": "diagnostic#11",
-        "sentence": "This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) <referential>it</referential>.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "diagnostic indicators not currently appearing on the list above (below)"
-      },
-      {
-        "id": "diagnostic#12",
-        "sentence": "An indicator in the summary set shall be active if any similar indicator not appearing above (or below) <referential>it</referential> is active.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "diagnostic#13",
-        "sentence": "The third window in the hierarchy is the subsystems window and <referential>it</referential> can only be displayed by a user selection on the main window.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the third window",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the subsystems window"
-      },
-      {
-        "id": "diagnostic#14",
-        "sentence": "The fourth window in the hierarchy is the condition window and <referential>it</referential> can only be displayed by a user selection on the subsystems window.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the fourth window",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the condition window"
-      },
-      {
-        "id": "diagnostic#15",
-        "sentence": "This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if <referential>it</referential> is displayed.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "user selection on the diagnostic history window"
-      },
-      {
-        "id": "library#26-1",
-        "sentence": "In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after <referential>its</referential> publication.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "publication"
-      },
-      {
-        "id": "library#27",
-        "sentence": "The Archival Information Update function in Administration also submits dissemination requests to obtain DIPs needed to perform <referential>its</referential> update functions.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Administration"
-      },
-      {
-        "id": "library#28",
-        "sentence": "During the development of the functional requirements for the NLM Digital Repository, <referential>it</referential> has become apparent that NLM will have several repositories – LocatorPlus, PubMed Central (covering journals), and the digital repository currently under investigation.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "NLM Digital Repository"
-      },
-      {
-        "id": "library#29",
-        "sentence": "<referential>It</referential> is possible that the initial NLM Repository may be composed of more than one electronic storage facility, especially in the early development of the repository.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "library#30",
-        "sentence": "The NLM System Administration/Programming Access: Provides an NLM Administrative/Programming Level, ultimate rights to the system, required for <referential>its</referential> management, development, and for assigning appropriate rights to users.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "NLM System Administration/Programming Access"
-      },
-      {
-        "id": "library#31",
-        "sentence": "Access rights and conditions to materials and the directories/folders in which <referential>they</referential> are kept must provide for one or more of the following basic privileges, either alone or in combination:• Create/Write access• Edit access• Read access• Delete access.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Access rights and conditions to materials and the directories/folders"
-      },
-      {
-        "id": "library#32",
-        "sentence": "Both an object and <referential>its</referential> related metadata may be embargoed in terms of public access.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "an object",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "library#33",
-        "sentence": "Access rights and conditions of use will be held for each digital object and <referential>its</referential> related metadata.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "each digital object",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "related metadata"
-      },
-      {
-        "id": "library#34",
-        "sentence": "System must have the ability to search and display metadata, preferably in a user-conformable, human readable display as well as in <referential>its</referential> native format for machine harvesting and manipulation.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "weather#21",
-        "sentence": "The Clarus program shall maintain information about requestors and <referential>their</referential> access to data and information.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "requestors",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "requestors"
-      },
-      {
-        "id": "weather#22",
-        "sentence": "The Clarus program shall operate the Clarus system according to <referential>its</referential> published IT Security Plan.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Clarus system"
-      },
-      {
-        "id": "weather#23",
-        "sentence": "The QChS shall be able to use historical environmental data in <referential>their</referential> quality checking algorithms.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "historical environmental data"
-      },
-      {
-        "id": "weather#24",
-        "sentence": "The QChS shall be implemented to quality check new observation types as <referential>they</referential> become available.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "weather#25",
-        "sentence": "The Clarus system shall process data as <referential>they</referential> are received.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "data",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "data"
-      },
-      {
-        "id": "weather#26",
-        "sentence": "The QChS shall apply quality flags to data as <referential>they</referential> are received.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "data"
-      },
-      {
-        "id": "weather#27",
-        "sentence": "The SS shall record when <referential>it</referential> initiates actions.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the SS",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "weather#28",
-        "sentence": "The Clarus system shall be able to publish environmental data at three times the volume rate that <referential>it</referential> collects it.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "environmental data"
-      },
-      {
-        "id": "archive#01",
-        "sentence": "<referential>It</referential> shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "to request that ... ",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "archive#02-0",
-        "sentence": "The IIPC members should provide <referential>us</referential> with the default METADATA they want to be included for migration.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "archive#02-1",
-        "sentence": "The IIPC members should provide us with the default METADATA <referential>they</referential> want to be included for migration.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "IIPC members",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "default METADATA"
-      },
-      {
-        "id": "archive#03",
-        "sentence": "Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit <referential>it</referential>.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "atomic transactions"
-      },
-      {
-        "id": "archive#04",
-        "sentence": "<referential>It</referential> shall be possible to perform a “dry-run migration”.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "to perform ...",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "perform a 'dry-run migration'"
-      },
-      {
-        "id": "archive#05",
-        "sentence": "To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with <referential>their</referential> corresponding ARC iles (see FR4, and FR5).",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "archive#06",
-        "sentence": "Enhance the WARC browser to display aggregated WARCs summaries in <referential>its</referential> UI.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the WARC broswer",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "WARC browser"
-      },
-      {
-        "id": "archive#07",
-        "sentence": "Enhance the WARC browser to display a manifest of WARC iles and <referential>their</referential> locations.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the WARC iles",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "WARC files"
-      },
-      {
-        "id": "railway#63",
-        "sentence": "As a train approaches the limits of the coverage of the PLMN <referential>it</referential> is registered with, <referential>it</referential> will be necessary for <referential>it</referential> to register with the next PLMN providing coverage.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "PLMN"
-      },
-      {
-        "id": "railway#64",
-        "sentence": "Each type of equipment has slightly different requirements placed upon <referential>it</referential> in terms of EMC and climate.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "each type of equipment",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "railway#65",
-        "sentence": "Where other data interfaces are implemented, <referential>they</referential> should be of the RS422 standard.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "other data interfaces",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "railway#66",
-        "sentence": "Upon switch on, once the radio is connected to a mobile network, <referential>it</referential> shall be able to receive all calls made using the MSISDN or appropriate group call number.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "MSISDN or appropriate group call number"
-      },
-      {
-        "id": "railway#67",
-        "sentence": "In addition, the Operational radio is specified to allow <referential>its</referential> use in the operating environment experienced on the operational railway (eg shunting and maintenance), with the specifications in this section taking priority over those in section 4 where any discrepancy is identified.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the operational radio",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Operational radio"
-      },
-      {
-        "id": "railway#68",
-        "sentence": "The SIM cards shall be fixed into the radio such that <referential>they</referential> can only be removed by the use of a tool.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "SIM cards",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "SIM cards"
-      },
-      {
-        "id": "railway#69",
-        "sentence": "A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate <referential>his</referential> wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “###” shall be transferred.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "a group call controller"
-      },
-      {
-        "id": "railway#70",
-        "sentence": "The terminal of the controller should receive a single DTMF grant tone “#” of duration 100ms  5ms sent by the network if <referential>it</referential> has detected the 3-digit DTMF sequence “###” and if the controller was not previously talking.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the terminal of the controller"
-      },
-      {
-        "id": "railway#71",
-        "sentence": "Any group call controller who wishes to stop talking shall indicate <referential>his</referential> wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "Any group call controller",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "group call controller"
-      },
-      {
-        "id": "railway#72",
-        "sentence": "All Train Function Numbers and <referential>their</referential> associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "All Train Function Numbers",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "All Train Function Numbers and their associated MSISDN numbers"
-      },
-      {
-        "id": "railway#73",
-        "sentence": "If functional numbers are to be used outside the EIRENE network, <referential>they</referential> will require either a public number allocation or, alternatively, an EIRENE Network Access Number (ENAN) may be used as described in 9.11 9.3.3 Each national railway should obtain a public numbering allocation for MSISDN numbers from the relevant regulatory bodies.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "functional numbers",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "an EIRENE Network Access Number (ENAN)"
-      },
-      {
-        "id": "railway#74-0",
-        "sentence": "<referential>It</referential> is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "responsibility of each individual GSM-R operator"
-      },
-      {
-        "id": "railway#74-1",
-        "sentence": "It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from <referential>their</referential> national telecommunications regulator.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "each individual GSM-R operator",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "national telecommunications regulator"
-      },
-      {
-        "id": "railway#75",
-        "sentence": "Mobiles shall be capable of operation using algorithms for all countries in which <referential>they</referential> need to roam.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "countries"
-      },
-      {
-        "id": "railway#76",
-        "sentence": "Functional numbering provides the mechanism by which a mobile terminal, or an item of equipment connected to a mobile terminal, can be addressed by a number identifying the function for which <referential>it</referential> is being used.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "a mobile terminal, or an item of equipment connected to a mobile terminal"
-      },
-      {
-        "id": "railway#77",
-        "sentence": "For international Railway emergency calls, in order to minimise call set-up times, <referential>it</referential> is recommended that the anchor MSC always directly controls the cell where the Railway emergency call was originated.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the anchor MSC"
-      },
-      {
-        "id": "railway#78",
-        "sentence": "Each mobile shall store a list of emergency Group IDs in the SIM appropriate to <referential>its</referential> function (the Cab radio will store Group ID 299 and 599 - see table 9-8).",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Group IDs in the SIM"
-      },
-      {
-        "id": "railway#79",
-        "sentence": "For post-incident analysis <referential>it</referential> is important that the initiation and receipt of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based location (and also registered in the train borne recorder, in cases where a train borne recorder is connected to the Cab radio).",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "initiation and receipt of Railway emergency calls by mobiles"
-      },
-      {
-        "id": "railway#80",
-        "sentence": "The common shunting group provides a point of contact for leaders and team members to set up a dedicated shunting group call for <referential>their</referential> shunting operation.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "leaders and team members"
-      },
-      {
-        "id": "railway#81",
-        "sentence": "The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless <referential>they</referential> are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "members of a dedicated shunting team",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "members of a dedicated shunting team"
-      },
-      {
-        "id": "railway#82",
-        "sentence": "Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by <referential>their</referential> terminal.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "Users",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the Users"
-      },
-      {
-        "id": "railway#83",
-        "sentence": "If an ETCS equipped train passes a level transition to one or more levels for which <referential>it</referential> is not equipped, ETCS shall initiate a brake application.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "equipped train",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "ETCS equipped train"
-      },
-      {
-        "id": "space#21",
-        "sentence": "When memory alignment is permitted, Redundancy Management attempts to reintegrate a processor with the other members of <referential>its</referential> original FCP virtual group by commanding the affected FCP virtual group to perform re-synchronization operations.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Redundancy Management"
-      },
-      {
-        "id": "space#22",
-        "sentence": "Network Element FTSS CSCIIBNF time-out Indicates that the members of the destination virtual group corresponding to the set bits did not free enough space in <referential>their</referential> input buffers to hold the incoming packet within the allowable time skew.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "members of the destination virtual group"
-      },
-      {
-        "id": "space#23",
-        "sentence": "The FTSS shall provide an API call to allow the ICP application to determine on which channel <referential>it</referential> resides.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "ICP application"
-      },
-      {
-        "id": "space#24",
-        "sentence": "The FTPP shall recover from a babbling NE or ICP within 40 milliseconds after <referential>it</referential> is detected.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "unknown"
-      },
-      {
-        "id": "space#25",
-        "sentence": "<referential>It</referential> shall be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "to modify",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "CT"
-      },
-      {
-        "id": "space#26",
-        "sentence": "When a majority, but not a unanimity, of FCP members are observed with packets in <referential>their</referential> output buffers, a time-out shall (3.2.2.6.7) be initiated.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "FCP members"
-      },
-      {
-        "id": "space#27",
-        "sentence": "When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), <referential>it</referential> shall (3.2.2.7.6) wrap around to zero.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "The timestamp counter",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "the maximum value (Hex FFFFFFFF or approximately 5500 seconds)"
-      },
-      {
-        "id": "space#28",
-        "sentence": "The Start-Up shall synchronize <referential>its</referential> FCP with other operational FCPs.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "Start-Up",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Start-Up"
-      },
-      {
-        "id": "space#29",
-        "sentence": "The Scheduler shall detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of <referential>their</referential> respective rate boundaries.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "50 Hz, 10 Hz, and 1 Hz frame overruns"
-      },
-      {
-        "id": "space#30",
-        "sentence": "The FTSS shall wait for the ICP to signal that <referential>it</referential> has completed initialization before suspending the application for memory re-alignment.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "ICP"
-      }
-    ],
-    "metrics": {
-      "detection": {
-        "precision": 0.6060606060606061,
-        "recall": 0.975609756097561,
-        "f1": 0.7476635514018692
-      },
-      "resolution": {
-        "precision": 0.0,
-        "recall": 0,
-        "f1": 0
-      }
-    }
-  },
-  {
-    "model": "qwen3-coder-plus",
-    "predictions": [
-      {
-        "id": "diagnostic#01",
-        "sentence": "The absolute time of input will be associated with each sensed data item for <referential>its</referential> complete lifecycle, including permanent storage.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "each sensed data item"
-      },
-      {
-        "id": "diagnostic#02",
-        "sentence": "Each sensed data item will be qualified as to <referential>its</referential> certitude during the acquisition process.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "Each sensed data item",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Each sensed data item"
-      },
-      {
-        "id": "diagnostic#03",
-        "sentence": "Sensed data input to the tool shall be validated with respect to <referential>its</referential> expected range of values.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "sensed data input",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Sensed data"
-      },
-      {
-        "id": "diagnostic#04",
-        "sentence": "The faults identified and <referential>their</referential> causes and sources, shall be saved to permanent storage for subsequent analysis.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the faults identified",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "faults"
-      },
-      {
-        "id": "diagnostic#05",
-        "sentence": "The tool shall monitor the unit under diagnosis, either in real time or batch mode, for an indefinite period of time or until input data are no longer available, and log diagnostic results as <referential>they</referential> are determined.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "diagnostic results"
-      },
-      {
-        "id": "diagnostic#06",
-        "sentence": "Selecting the “Configure Diagnostics” menu item of the main menu entitled “File” shall display the configuration window, making <referential>it</referential> the current window, modal to the main window.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "the configuration window"
-      },
-      {
-        "id": "diagnostic#07",
-        "sentence": "Entering a file name shall cause the permanent storage of the modified parameters and <referential>their</referential> immediate use by the diagnostic operations after confirmatory responses by the user.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the modified parameters",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the modified parameters"
-      },
-      {
-        "id": "diagnostic#08",
-        "sentence": "If the user does not confirm the request to save, <referential>it</referential> will not be performed.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the request to save",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the request to save"
-      },
-      {
-        "id": "diagnostic#09",
-        "sentence": "If the user does not confirm the request to relay the modified parameters to the diagnostic processing immediately, <referential>it</referential> will not be performed.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "the request to relay the modified parameters to the diagnostic processing"
@@ -670,159 +77,159 @@
       {
         "id": "diagnostic#10",
         "sentence": "The subsystems window, condition window, and diagnostic information window shall display a title that indicates <referential>its</referential> specific location or absolute path in the navigation hierarchy of windows.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the navigation hierarchy of windows"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "diagnostic#11",
         "sentence": "This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) <referential>it</referential>.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the list above (below)"
+        "pred_disambiguated": "diagnostic indicators not currently appearing on the list above (below)"
       },
       {
         "id": "diagnostic#12",
         "sentence": "An indicator in the summary set shall be active if any similar indicator not appearing above (or below) <referential>it</referential> is active.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the summary set"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "diagnostic#13",
         "sentence": "The third window in the hierarchy is the subsystems window and <referential>it</referential> can only be displayed by a user selection on the main window.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the third window",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The third window in the hierarchy"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "subsystems window"
       },
       {
         "id": "diagnostic#14",
         "sentence": "The fourth window in the hierarchy is the condition window and <referential>it</referential> can only be displayed by a user selection on the subsystems window.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the fourth window",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The fourth window in the hierarchy"
-      },
-      {
-        "id": "diagnostic#15",
-        "sentence": "This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if <referential>it</referential> is displayed.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "the condition window"
       },
       {
-        "id": "library#26-1",
-        "sentence": "In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after <referential>its</referential> publication.",
-        "true_detected": "NOCUOUS",
+        "id": "diagnostic#15",
+        "sentence": "This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if <referential>it</referential> is displayed.",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "material"
+        "pred_disambiguated": "user selection on the diagnostic history window"
+      },
+      {
+        "id": "library#26-1",
+        "sentence": "In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after <referential>its</referential> publication.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "publication"
       },
       {
         "id": "library#27",
         "sentence": "The Archival Information Update function in Administration also submits dissemination requests to obtain DIPs needed to perform <referential>its</referential> update functions.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The Archival Information Update function in Administration"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Administration"
       },
       {
         "id": "library#28",
         "sentence": "During the development of the functional requirements for the NLM Digital Repository, <referential>it</referential> has become apparent that NLM will have several repositories – LocatorPlus, PubMed Central (covering journals), and the digital repository currently under investigation.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the development of the functional requirements for the NLM Digital Repository"
+        "pred_disambiguated": "NLM Digital Repository"
       },
       {
         "id": "library#29",
         "sentence": "<referential>It</referential> is possible that the initial NLM Repository may be composed of more than one electronic storage facility, especially in the early development of the repository.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the initial NLM Repository"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "library#30",
         "sentence": "The NLM System Administration/Programming Access: Provides an NLM Administrative/Programming Level, ultimate rights to the system, required for <referential>its</referential> management, development, and for assigning appropriate rights to users.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "NLM System"
+        "pred_disambiguated": "NLM System Administration/Programming Access"
       },
       {
         "id": "library#31",
         "sentence": "Access rights and conditions to materials and the directories/folders in which <referential>they</referential> are kept must provide for one or more of the following basic privileges, either alone or in combination:• Create/Write access• Edit access• Read access• Delete access.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "materials and the directories/folders"
+        "pred_disambiguated": "Access rights and conditions to materials and the directories/folders"
       },
       {
         "id": "library#32",
         "sentence": "Both an object and <referential>its</referential> related metadata may be embargoed in terms of public access.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "an object",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "object"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "library#33",
         "sentence": "Access rights and conditions of use will be held for each digital object and <referential>its</referential> related metadata.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "each digital object",
         "pred_detected": "nocuous",
-        "pred_disambiguated": "digital object"
+        "pred_disambiguated": "related metadata"
       },
       {
         "id": "library#34",
         "sentence": "System must have the ability to search and display metadata, preferably in a user-conformable, human readable display as well as in <referential>its</referential> native format for machine harvesting and manipulation.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "metadata"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "weather#21",
         "sentence": "The Clarus program shall maintain information about requestors and <referential>their</referential> access to data and information.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "requestors",
-        "pred_detected": "innocuous",
+        "pred_detected": "nocuous",
         "pred_disambiguated": "requestors"
       },
       {
         "id": "weather#22",
         "sentence": "The Clarus program shall operate the Clarus system according to <referential>its</referential> published IT Security Plan.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "Clarus system"
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the Clarus system"
       },
       {
         "id": "weather#23",
         "sentence": "The QChS shall be able to use historical environmental data in <referential>their</referential> quality checking algorithms.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
+        "pred_detected": "nocuous",
         "pred_disambiguated": "historical environmental data"
       },
       {
         "id": "weather#24",
         "sentence": "The QChS shall be implemented to quality check new observation types as <referential>they</referential> become available.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "new observation types"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "weather#25",
         "sentence": "The Clarus system shall process data as <referential>they</referential> are received.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "data",
         "pred_detected": "nocuous",
         "pred_disambiguated": "data"
@@ -830,87 +237,87 @@
       {
         "id": "weather#26",
         "sentence": "The QChS shall apply quality flags to data as <referential>they</referential> are received.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "data"
-      },
-      {
-        "id": "weather#27",
-        "sentence": "The SS shall record when <referential>it</referential> initiates actions.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "the SS",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "SS"
-      },
-      {
-        "id": "weather#28",
-        "sentence": "The Clarus system shall be able to publish environmental data at three times the volume rate that <referential>it</referential> collects it.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "the Clarus system"
-      },
-      {
-        "id": "archive#01",
-        "sentence": "<referential>It</referential> shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "to request that ... ",
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "automatically generated migration metadata"
-      },
-      {
-        "id": "archive#02-0",
-        "sentence": "The IIPC members should provide <referential>us</referential> with the default METADATA they want to be included for migration.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "IIPC members"
-      },
-      {
-        "id": "archive#02-1",
-        "sentence": "The IIPC members should provide us with the default METADATA <referential>they</referential> want to be included for migration.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "IIPC members",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The IIPC members"
-      },
-      {
-        "id": "archive#03",
-        "sentence": "Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit <referential>it</referential>.",
-        "true_detected": "NOCUOUS",
-        "true_disambiguated": NaN,
-        "pred_detected": "nocuous",
-        "pred_disambiguated": "operating system limitations"
-      },
-      {
-        "id": "archive#04",
-        "sentence": "<referential>It</referential> shall be possible to perform a “dry-run migration”.",
-        "true_detected": "INNOCUOUS",
-        "true_disambiguated": "to perform ...",
         "pred_detected": "nocuous",
         "pred_disambiguated": "unknown"
       },
       {
-        "id": "archive#05",
-        "sentence": "To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with <referential>their</referential> corresponding ARC iles (see FR4, and FR5).",
-        "true_detected": "NOCUOUS",
+        "id": "weather#27",
+        "sentence": "The SS shall record when <referential>it</referential> initiates actions.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the SS",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "weather#28",
+        "sentence": "The Clarus system shall be able to publish environmental data at three times the volume rate that <referential>it</referential> collects it.",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "records"
+        "pred_disambiguated": "environmental data"
+      },
+      {
+        "id": "archive#01",
+        "sentence": "<referential>It</referential> shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",
+        "true_detected": "innocuous",
+        "true_disambiguated": "to request that ... ",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset"
+      },
+      {
+        "id": "archive#02-0",
+        "sentence": "The IIPC members should provide <referential>us</referential> with the default METADATA they want to be included for migration.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "archive#02-1",
+        "sentence": "The IIPC members should provide us with the default METADATA <referential>they</referential> want to be included for migration.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "IIPC members",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "default METADATA"
+      },
+      {
+        "id": "archive#03",
+        "sentence": "Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit <referential>it</referential>.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "atomic transactions"
+      },
+      {
+        "id": "archive#04",
+        "sentence": "<referential>It</referential> shall be possible to perform a “dry-run migration”.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "to perform ...",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "perform a 'dry-run migration'"
+      },
+      {
+        "id": "archive#05",
+        "sentence": "To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with <referential>their</referential> corresponding ARC iles (see FR4, and FR5).",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the newly generated WARC files"
       },
       {
         "id": "archive#06",
         "sentence": "Enhance the WARC browser to display aggregated WARCs summaries in <referential>its</referential> UI.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the WARC broswer",
-        "pred_detected": "nocuous",
+        "pred_detected": "innocuous",
         "pred_disambiguated": "WARC browser"
       },
       {
         "id": "archive#07",
         "sentence": "Enhance the WARC browser to display a manifest of WARC iles and <referential>their</referential> locations.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the WARC iles",
         "pred_detected": "nocuous",
         "pred_disambiguated": "WARC files"
@@ -918,119 +325,119 @@
       {
         "id": "railway#63",
         "sentence": "As a train approaches the limits of the coverage of the PLMN <referential>it</referential> is registered with, <referential>it</referential> will be necessary for <referential>it</referential> to register with the next PLMN providing coverage.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the train"
+        "pred_disambiguated": "PLMN"
       },
       {
         "id": "railway#64",
         "sentence": "Each type of equipment has slightly different requirements placed upon <referential>it</referential> in terms of EMC and climate.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "each type of equipment",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Each type of equipment"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "railway#65",
         "sentence": "Where other data interfaces are implemented, <referential>they</referential> should be of the RS422 standard.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "other data interfaces",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "other data interfaces"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "railway#66",
         "sentence": "Upon switch on, once the radio is connected to a mobile network, <referential>it</referential> shall be able to receive all calls made using the MSISDN or appropriate group call number.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the radio"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "railway#67",
         "sentence": "In addition, the Operational radio is specified to allow <referential>its</referential> use in the operating environment experienced on the operational railway (eg shunting and maintenance), with the specifications in this section taking priority over those in section 4 where any discrepancy is identified.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "the operational radio",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "the Operational radio"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Operational radio"
       },
       {
         "id": "railway#68",
         "sentence": "The SIM cards shall be fixed into the radio such that <referential>they</referential> can only be removed by the use of a tool.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "SIM cards",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The SIM cards"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "SIM cards"
       },
       {
         "id": "railway#69",
         "sentence": "A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate <referential>his</referential> wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “###” shall be transferred.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "A group call controller"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "a group call controller"
       },
       {
         "id": "railway#70",
         "sentence": "The terminal of the controller should receive a single DTMF grant tone “#” of duration 100ms  5ms sent by the network if <referential>it</referential> has detected the 3-digit DTMF sequence “###” and if the controller was not previously talking.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the network"
+        "pred_disambiguated": "the 3-digit DTMF sequence “###”"
       },
       {
         "id": "railway#71",
         "sentence": "Any group call controller who wishes to stop talking shall indicate <referential>his</referential> wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "Any group call controller",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Any group call controller who wishes to stop talking"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "group call controller"
       },
       {
         "id": "railway#72",
         "sentence": "All Train Function Numbers and <referential>their</referential> associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "All Train Function Numbers",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Train Function Numbers"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "All Train Function Numbers"
       },
       {
         "id": "railway#73",
         "sentence": "If functional numbers are to be used outside the EIRENE network, <referential>they</referential> will require either a public number allocation or, alternatively, an EIRENE Network Access Number (ENAN) may be used as described in 9.11 9.3.3 Each national railway should obtain a public numbering allocation for MSISDN numbers from the relevant regulatory bodies.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "functional numbers",
         "pred_detected": "nocuous",
-        "pred_disambiguated": "functional numbers"
+        "pred_disambiguated": "public numbers allocation or an EIRENE Network Access Number (ENAN)"
       },
       {
         "id": "railway#74-0",
         "sentence": "<referential>It</referential> is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "innocuous",
-        "pred_disambiguated": "each individual GSM-R operator"
+        "pred_disambiguated": "responsibility of each individual GSM-R operator"
       },
       {
         "id": "railway#74-1",
         "sentence": "It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from <referential>their</referential> national telecommunications regulator.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "each individual GSM-R operator",
         "pred_detected": "nocuous",
-        "pred_disambiguated": "each individual GSM-R operator"
+        "pred_disambiguated": "national telecommunications regulator"
       },
       {
         "id": "railway#75",
         "sentence": "Mobiles shall be capable of operation using algorithms for all countries in which <referential>they</referential> need to roam.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "Mobiles"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "railway#76",
         "sentence": "Functional numbering provides the mechanism by which a mobile terminal, or an item of equipment connected to a mobile terminal, can be addressed by a number identifying the function for which <referential>it</referential> is being used.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "a mobile terminal, or an item of equipment connected to a mobile terminal"
@@ -1038,7 +445,7 @@
       {
         "id": "railway#77",
         "sentence": "For international Railway emergency calls, in order to minimise call set-up times, <referential>it</referential> is recommended that the anchor MSC always directly controls the cell where the Railway emergency call was originated.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "the anchor MSC"
@@ -1046,23 +453,23 @@
       {
         "id": "railway#78",
         "sentence": "Each mobile shall store a list of emergency Group IDs in the SIM appropriate to <referential>its</referential> function (the Cab radio will store Group ID 299 and 599 - see table 9-8).",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "Each mobile"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the SIM"
       },
       {
         "id": "railway#79",
         "sentence": "For post-incident analysis <referential>it</referential> is important that the initiation and receipt of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based location (and also registered in the train borne recorder, in cases where a train borne recorder is connected to the Cab radio).",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "the initiation and receipt of Railway emergency calls by mobiles"
+        "pred_disambiguated": "initiation and receipt of Railway emergency calls by mobiles"
       },
       {
         "id": "railway#80",
         "sentence": "The common shunting group provides a point of contact for leaders and team members to set up a dedicated shunting group call for <referential>their</referential> shunting operation.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "leaders and team members"
@@ -1070,7 +477,7 @@
       {
         "id": "railway#81",
         "sentence": "The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless <referential>they</referential> are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "members of a dedicated shunting team",
         "pred_detected": "nocuous",
         "pred_disambiguated": "members of a dedicated shunting team"
@@ -1078,15 +485,15 @@
       {
         "id": "railway#82",
         "sentence": "Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by <referential>their</referential> terminal.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "Users",
         "pred_detected": "nocuous",
-        "pred_disambiguated": "Users"
+        "pred_disambiguated": "the Users"
       },
       {
         "id": "railway#83",
         "sentence": "If an ETCS equipped train passes a level transition to one or more levels for which <referential>it</referential> is not equipped, ETCS shall initiate a brake application.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "equipped train",
         "pred_detected": "nocuous",
         "pred_disambiguated": "ETCS equipped train"
@@ -1094,7 +501,7 @@
       {
         "id": "space#21",
         "sentence": "When memory alignment is permitted, Redundancy Management attempts to reintegrate a processor with the other members of <referential>its</referential> original FCP virtual group by commanding the affected FCP virtual group to perform re-synchronization operations.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "Redundancy Management"
@@ -1102,7 +509,7 @@
       {
         "id": "space#22",
         "sentence": "Network Element FTSS CSCIIBNF time-out Indicates that the members of the destination virtual group corresponding to the set bits did not free enough space in <referential>their</referential> input buffers to hold the incoming packet within the allowable time skew.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "members of the destination virtual group"
@@ -1110,7 +517,7 @@
       {
         "id": "space#23",
         "sentence": "The FTSS shall provide an API call to allow the ICP application to determine on which channel <referential>it</referential> resides.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "ICP application"
@@ -1118,15 +525,15 @@
       {
         "id": "space#24",
         "sentence": "The FTPP shall recover from a babbling NE or ICP within 40 milliseconds after <referential>it</referential> is detected.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "babbling NE or ICP"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "space#25",
         "sentence": "<referential>It</referential> shall be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "to modify",
         "pred_detected": "nocuous",
         "pred_disambiguated": "CT"
@@ -1134,7 +541,7 @@
       {
         "id": "space#26",
         "sentence": "When a majority, but not a unanimity, of FCP members are observed with packets in <referential>their</referential> output buffers, a time-out shall (3.2.2.6.7) be initiated.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "FCP members"
@@ -1142,31 +549,31 @@
       {
         "id": "space#27",
         "sentence": "When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), <referential>it</referential> shall (3.2.2.7.6) wrap around to zero.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "The timestamp counter",
-        "pred_detected": "innocuous",
+        "pred_detected": "nocuous",
         "pred_disambiguated": "the timestamp counter"
       },
       {
         "id": "space#28",
         "sentence": "The Start-Up shall synchronize <referential>its</referential> FCP with other operational FCPs.",
-        "true_detected": "INNOCUOUS",
+        "true_detected": "innocuous",
         "true_disambiguated": "Start-Up",
-        "pred_detected": "innocuous",
-        "pred_disambiguated": "The Start-Up"
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "space#29",
         "sentence": "The Scheduler shall detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of <referential>their</referential> respective rate boundaries.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
-        "pred_disambiguated": "50 Hz, 10 Hz, and 1 Hz frame overruns"
+        "pred_disambiguated": "unknown"
       },
       {
         "id": "space#30",
         "sentence": "The FTSS shall wait for the ICP to signal that <referential>it</referential> has completed initialization before suspending the application for memory re-alignment.",
-        "true_detected": "NOCUOUS",
+        "true_detected": "nocuous",
         "true_disambiguated": NaN,
         "pred_detected": "nocuous",
         "pred_disambiguated": "ICP"
@@ -1174,14 +581,607 @@
     ],
     "metrics": {
       "detection": {
-        "precision": 0.673469387755102,
-        "recall": 0.8048780487804879,
-        "f1": 0.7333333333333334
+        "precision": 0.582089552238806,
+        "recall": 0.9512195121951219,
+        "f2": 0.8441558441558441
       },
       "resolution": {
-        "precision": 0.0,
-        "recall": 0,
-        "f1": 0
+        "precision": 0.5384615384615384,
+        "recall": 0.34146341463414637,
+        "f2": 0.368421052631579
+      }
+    }
+  },
+  {
+    "model": "deepseek-chat",
+    "predictions": [
+      {
+        "id": "diagnostic#01",
+        "sentence": "The absolute time of input will be associated with each sensed data item for <referential>its</referential> complete lifecycle, including permanent storage.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "each sensed data item"
+      },
+      {
+        "id": "diagnostic#02",
+        "sentence": "Each sensed data item will be qualified as to <referential>its</referential> certitude during the acquisition process.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "Each sensed data item",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "Each sensed data item"
+      },
+      {
+        "id": "diagnostic#03",
+        "sentence": "Sensed data input to the tool shall be validated with respect to <referential>its</referential> expected range of values.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "sensed data input",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Sensed data"
+      },
+      {
+        "id": "diagnostic#04",
+        "sentence": "The faults identified and <referential>their</referential> causes and sources, shall be saved to permanent storage for subsequent analysis.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the faults identified",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "The faults identified"
+      },
+      {
+        "id": "diagnostic#05",
+        "sentence": "The tool shall monitor the unit under diagnosis, either in real time or batch mode, for an indefinite period of time or until input data are no longer available, and log diagnostic results as <referential>they</referential> are determined.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "diagnostic results"
+      },
+      {
+        "id": "diagnostic#06",
+        "sentence": "Selecting the “Configure Diagnostics” menu item of the main menu entitled “File” shall display the configuration window, making <referential>it</referential> the current window, modal to the main window.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the configuration window"
+      },
+      {
+        "id": "diagnostic#07",
+        "sentence": "Entering a file name shall cause the permanent storage of the modified parameters and <referential>their</referential> immediate use by the diagnostic operations after confirmatory responses by the user.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the modified parameters",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "modified parameters"
+      },
+      {
+        "id": "diagnostic#08",
+        "sentence": "If the user does not confirm the request to save, <referential>it</referential> will not be performed.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the request to save",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the request to save"
+      },
+      {
+        "id": "diagnostic#09",
+        "sentence": "If the user does not confirm the request to relay the modified parameters to the diagnostic processing immediately, <referential>it</referential> will not be performed.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the request to relay the modified parameters to the diagnostic processing"
+      },
+      {
+        "id": "diagnostic#10",
+        "sentence": "The subsystems window, condition window, and diagnostic information window shall display a title that indicates <referential>its</referential> specific location or absolute path in the navigation hierarchy of windows.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "title"
+      },
+      {
+        "id": "diagnostic#11",
+        "sentence": "This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) <referential>it</referential>.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the list above (below)"
+      },
+      {
+        "id": "diagnostic#12",
+        "sentence": "An indicator in the summary set shall be active if any similar indicator not appearing above (or below) <referential>it</referential> is active.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "indicator in the summary set"
+      },
+      {
+        "id": "diagnostic#13",
+        "sentence": "The third window in the hierarchy is the subsystems window and <referential>it</referential> can only be displayed by a user selection on the main window.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the third window",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the subsystems window"
+      },
+      {
+        "id": "diagnostic#14",
+        "sentence": "The fourth window in the hierarchy is the condition window and <referential>it</referential> can only be displayed by a user selection on the subsystems window.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the fourth window",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the condition window"
+      },
+      {
+        "id": "diagnostic#15",
+        "sentence": "This window can only be displayed by a user selection on the condition window or by a user selection on the diagnostic history window if <referential>it</referential> is displayed.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "diagnostic history window"
+      },
+      {
+        "id": "library#26-1",
+        "sentence": "In addition, some publishers may only allow their material to be served up through NLM’s system at a certain interval after <referential>its</referential> publication.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "material"
+      },
+      {
+        "id": "library#27",
+        "sentence": "The Archival Information Update function in Administration also submits dissemination requests to obtain DIPs needed to perform <referential>its</referential> update functions.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "The Archival Information Update function"
+      },
+      {
+        "id": "library#28",
+        "sentence": "During the development of the functional requirements for the NLM Digital Repository, <referential>it</referential> has become apparent that NLM will have several repositories – LocatorPlus, PubMed Central (covering journals), and the digital repository currently under investigation.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the development of the functional requirements for the NLM Digital Repository"
+      },
+      {
+        "id": "library#29",
+        "sentence": "<referential>It</referential> is possible that the initial NLM Repository may be composed of more than one electronic storage facility, especially in the early development of the repository.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "NLM Repository"
+      },
+      {
+        "id": "library#30",
+        "sentence": "The NLM System Administration/Programming Access: Provides an NLM Administrative/Programming Level, ultimate rights to the system, required for <referential>its</referential> management, development, and for assigning appropriate rights to users.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the system"
+      },
+      {
+        "id": "library#31",
+        "sentence": "Access rights and conditions to materials and the directories/folders in which <referential>they</referential> are kept must provide for one or more of the following basic privileges, either alone or in combination:• Create/Write access• Edit access• Read access• Delete access.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "materials and the directories/folders"
+      },
+      {
+        "id": "library#32",
+        "sentence": "Both an object and <referential>its</referential> related metadata may be embargoed in terms of public access.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "an object",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "an object"
+      },
+      {
+        "id": "library#33",
+        "sentence": "Access rights and conditions of use will be held for each digital object and <referential>its</referential> related metadata.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "each digital object",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "each digital object"
+      },
+      {
+        "id": "library#34",
+        "sentence": "System must have the ability to search and display metadata, preferably in a user-conformable, human readable display as well as in <referential>its</referential> native format for machine harvesting and manipulation.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "metadata"
+      },
+      {
+        "id": "weather#21",
+        "sentence": "The Clarus program shall maintain information about requestors and <referential>their</referential> access to data and information.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "requestors",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "requestors"
+      },
+      {
+        "id": "weather#22",
+        "sentence": "The Clarus program shall operate the Clarus system according to <referential>its</referential> published IT Security Plan.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Clarus system"
+      },
+      {
+        "id": "weather#23",
+        "sentence": "The QChS shall be able to use historical environmental data in <referential>their</referential> quality checking algorithms.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "QChS"
+      },
+      {
+        "id": "weather#24",
+        "sentence": "The QChS shall be implemented to quality check new observation types as <referential>they</referential> become available.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "new observation types"
+      },
+      {
+        "id": "weather#25",
+        "sentence": "The Clarus system shall process data as <referential>they</referential> are received.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "data",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "data"
+      },
+      {
+        "id": "weather#26",
+        "sentence": "The QChS shall apply quality flags to data as <referential>they</referential> are received.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "data"
+      },
+      {
+        "id": "weather#27",
+        "sentence": "The SS shall record when <referential>it</referential> initiates actions.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the SS",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "SS"
+      },
+      {
+        "id": "weather#28",
+        "sentence": "The Clarus system shall be able to publish environmental data at three times the volume rate that <referential>it</referential> collects it.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "environmental data"
+      },
+      {
+        "id": "archive#01",
+        "sentence": "<referential>It</referential> shall be possible to request that automatically generated migration metadata be stored in the converted iles (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...).",
+        "true_detected": "innocuous",
+        "true_disambiguated": "to request that ... ",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "automatically generated migration metadata"
+      },
+      {
+        "id": "archive#02-0",
+        "sentence": "The IIPC members should provide <referential>us</referential> with the default METADATA they want to be included for migration.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the speaker(s) or organization being addressed"
+      },
+      {
+        "id": "archive#02-1",
+        "sentence": "The IIPC members should provide us with the default METADATA <referential>they</referential> want to be included for migration.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "IIPC members",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "IIPC members"
+      },
+      {
+        "id": "archive#03",
+        "sentence": "Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a ile, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit <referential>it</referential>.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "adding software checkpoints"
+      },
+      {
+        "id": "archive#04",
+        "sentence": "<referential>It</referential> shall be possible to perform a “dry-run migration”.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "to perform ...",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "archive#05",
+        "sentence": "To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC iles to match records with <referential>their</referential> corresponding ARC iles (see FR4, and FR5).",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "records"
+      },
+      {
+        "id": "archive#06",
+        "sentence": "Enhance the WARC browser to display aggregated WARCs summaries in <referential>its</referential> UI.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the WARC broswer",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the WARC browser"
+      },
+      {
+        "id": "archive#07",
+        "sentence": "Enhance the WARC browser to display a manifest of WARC iles and <referential>their</referential> locations.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the WARC iles",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "WARC files"
+      },
+      {
+        "id": "railway#63",
+        "sentence": "As a train approaches the limits of the coverage of the PLMN <referential>it</referential> is registered with, <referential>it</referential> will be necessary for <referential>it</referential> to register with the next PLMN providing coverage.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the train"
+      },
+      {
+        "id": "railway#64",
+        "sentence": "Each type of equipment has slightly different requirements placed upon <referential>it</referential> in terms of EMC and climate.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "each type of equipment",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "Each type of equipment"
+      },
+      {
+        "id": "railway#65",
+        "sentence": "Where other data interfaces are implemented, <referential>they</referential> should be of the RS422 standard.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "other data interfaces",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "other data interfaces"
+      },
+      {
+        "id": "railway#66",
+        "sentence": "Upon switch on, once the radio is connected to a mobile network, <referential>it</referential> shall be able to receive all calls made using the MSISDN or appropriate group call number.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the radio"
+      },
+      {
+        "id": "railway#67",
+        "sentence": "In addition, the Operational radio is specified to allow <referential>its</referential> use in the operating environment experienced on the operational railway (eg shunting and maintenance), with the specifications in this section taking priority over those in section 4 where any discrepancy is identified.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "the operational radio",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the Operational radio"
+      },
+      {
+        "id": "railway#68",
+        "sentence": "The SIM cards shall be fixed into the radio such that <referential>they</referential> can only be removed by the use of a tool.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "SIM cards",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "SIM cards"
+      },
+      {
+        "id": "railway#69",
+        "sentence": "A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate <referential>his</referential> wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “###” shall be transferred.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "a group call controller"
+      },
+      {
+        "id": "railway#70",
+        "sentence": "The terminal of the controller should receive a single DTMF grant tone “#” of duration 100ms  5ms sent by the network if <referential>it</referential> has detected the 3-digit DTMF sequence “###” and if the controller was not previously talking.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the terminal of the controller"
+      },
+      {
+        "id": "railway#71",
+        "sentence": "Any group call controller who wishes to stop talking shall indicate <referential>his</referential> wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "Any group call controller",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "group call controller"
+      },
+      {
+        "id": "railway#72",
+        "sentence": "All Train Function Numbers and <referential>their</referential> associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "All Train Function Numbers",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "All Train Function Numbers"
+      },
+      {
+        "id": "railway#73",
+        "sentence": "If functional numbers are to be used outside the EIRENE network, <referential>they</referential> will require either a public number allocation or, alternatively, an EIRENE Network Access Number (ENAN) may be used as described in 9.11 9.3.3 Each national railway should obtain a public numbering allocation for MSISDN numbers from the relevant regulatory bodies.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "functional numbers",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "functional numbers"
+      },
+      {
+        "id": "railway#74-0",
+        "sentence": "<referential>It</referential> is the responsibility of each individual GSM-R operator to acquire a public domain NDC from their national telecommunications regulator.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "railway#74-1",
+        "sentence": "It is the responsibility of each individual GSM-R operator to acquire a public domain NDC from <referential>their</referential> national telecommunications regulator.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "each individual GSM-R operator",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "railway#75",
+        "sentence": "Mobiles shall be capable of operation using algorithms for all countries in which <referential>they</referential> need to roam.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "railway#76",
+        "sentence": "Functional numbering provides the mechanism by which a mobile terminal, or an item of equipment connected to a mobile terminal, can be addressed by a number identifying the function for which <referential>it</referential> is being used.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "railway#77",
+        "sentence": "For international Railway emergency calls, in order to minimise call set-up times, <referential>it</referential> is recommended that the anchor MSC always directly controls the cell where the Railway emergency call was originated.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "unknown"
+      },
+      {
+        "id": "railway#78",
+        "sentence": "Each mobile shall store a list of emergency Group IDs in the SIM appropriate to <referential>its</referential> function (the Cab radio will store Group ID 299 and 599 - see table 9-8).",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "mobile"
+      },
+      {
+        "id": "railway#79",
+        "sentence": "For post-incident analysis <referential>it</referential> is important that the initiation and receipt of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based location (and also registered in the train borne recorder, in cases where a train borne recorder is connected to the Cab radio).",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "the initiation and receipt of Railway emergency calls by mobiles"
+      },
+      {
+        "id": "railway#80",
+        "sentence": "The common shunting group provides a point of contact for leaders and team members to set up a dedicated shunting group call for <referential>their</referential> shunting operation.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "leaders and team members"
+      },
+      {
+        "id": "railway#81",
+        "sentence": "The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless <referential>they</referential> are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).",
+        "true_detected": "innocuous",
+        "true_disambiguated": "members of a dedicated shunting team",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "members of a dedicated shunting team"
+      },
+      {
+        "id": "railway#82",
+        "sentence": "Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by <referential>their</referential> terminal.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "Users",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Users"
+      },
+      {
+        "id": "railway#83",
+        "sentence": "If an ETCS equipped train passes a level transition to one or more levels for which <referential>it</referential> is not equipped, ETCS shall initiate a brake application.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "equipped train",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "an ETCS equipped train"
+      },
+      {
+        "id": "space#21",
+        "sentence": "When memory alignment is permitted, Redundancy Management attempts to reintegrate a processor with the other members of <referential>its</referential> original FCP virtual group by commanding the affected FCP virtual group to perform re-synchronization operations.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "processor"
+      },
+      {
+        "id": "space#22",
+        "sentence": "Network Element FTSS CSCIIBNF time-out Indicates that the members of the destination virtual group corresponding to the set bits did not free enough space in <referential>their</referential> input buffers to hold the incoming packet within the allowable time skew.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the members of the destination virtual group"
+      },
+      {
+        "id": "space#23",
+        "sentence": "The FTSS shall provide an API call to allow the ICP application to determine on which channel <referential>it</referential> resides.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "ICP application"
+      },
+      {
+        "id": "space#24",
+        "sentence": "The FTPP shall recover from a babbling NE or ICP within 40 milliseconds after <referential>it</referential> is detected.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "a babbling NE or ICP"
+      },
+      {
+        "id": "space#25",
+        "sentence": "<referential>It</referential> shall be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "to modify",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "CT"
+      },
+      {
+        "id": "space#26",
+        "sentence": "When a majority, but not a unanimity, of FCP members are observed with packets in <referential>their</referential> output buffers, a time-out shall (3.2.2.6.7) be initiated.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "FCP members"
+      },
+      {
+        "id": "space#27",
+        "sentence": "When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), <referential>it</referential> shall (3.2.2.7.6) wrap around to zero.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "The timestamp counter",
+        "pred_detected": "innocuous",
+        "pred_disambiguated": "the timestamp counter"
+      },
+      {
+        "id": "space#28",
+        "sentence": "The Start-Up shall synchronize <referential>its</referential> FCP with other operational FCPs.",
+        "true_detected": "innocuous",
+        "true_disambiguated": "Start-Up",
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "Start-Up"
+      },
+      {
+        "id": "space#29",
+        "sentence": "The Scheduler shall detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of <referential>their</referential> respective rate boundaries.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "50 Hz, 10 Hz, and 1 Hz frame overruns"
+      },
+      {
+        "id": "space#30",
+        "sentence": "The FTSS shall wait for the ICP to signal that <referential>it</referential> has completed initialization before suspending the application for memory re-alignment.",
+        "true_detected": "nocuous",
+        "true_disambiguated": NaN,
+        "pred_detected": "nocuous",
+        "pred_disambiguated": "ICP"
+      }
+    ],
+    "metrics": {
+      "detection": {
+        "precision": 0.6470588235294118,
+        "recall": 0.8048780487804879,
+        "f2": 0.7674418604651162
+      },
+      "resolution": {
+        "precision": 0.7931034482758621,
+        "recall": 0.5609756097560976,
+        "f2": 0.5958549222797928
       }
     }
   }

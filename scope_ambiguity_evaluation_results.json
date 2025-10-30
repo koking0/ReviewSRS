@@ -1,0 +1,668 @@
+[
+  {
+    "model": "gpt-3.5-turbo",
+    "ambiguity_type": "scope",
+    "predictions": [
+      {
+        "story_id": "US-C1-347",
+        "story_text": "As a loan officer, I would like to apply for loan to save time",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "What type of loan? What is the application process? What information is required in the application?",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-8239",
+        "story_text": "As a technician, I would like to update configuration to resolve issues",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "update configuration",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-2555",
+        "story_text": "As a user, I need to access records so that I can improve patient care",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Access records",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-11216",
+        "story_text": "As a doctor, I want to update system so that I can reduce errors",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Update system",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-1872",
+        "story_text": "As a account holder, I would like to view account balance to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "view account balance",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9345",
+        "story_text": "As a loan officer, I would like to apply for loan to meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "financial goals",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10399",
+        "story_text": "As a account holder, I want to view account balance in order to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "view account balance",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10052",
+        "story_text": "As a user, I need to update information so that I have better improve security with detailed specifications and comprehensive requirements",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "update information, better improve security, detailed specifications, comprehensive requirements",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7965",
+        "story_text": "As a subscriber, I would like to process requests to reduce costs",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Processing requests and reducing costs are vague and can be interpreted in multiple ways",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9477",
+        "story_text": "As a financial advisor, I need to view account balance so I can comply with regulations",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "View account balance",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-2184",
+        "story_text": "As a financial advisor, I need to apply for loan so that I can improve security",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Improve security",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-1816",
+        "story_text": "As a investor, I want to apply for loan so that I can meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "What type of loan? What are the eligibility criteria? What is the application process?",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-10749",
+        "story_text": "As a nurse, I need to update system so that I can ensure compliance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Update system",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7869",
+        "story_text": "As a subscriber, I want to update configuration in order to optimize performance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "update configuration, optimize performance",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C8-12542",
+        "story_text": "As a engineer, I would like to handle quality control to meet production targets",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Quality control process, production targets",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C8-12765",
+        "story_text": "As a engineer, I want to manage operations so that I can ensure quality as soon as possible",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "manage operations",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9587",
+        "story_text": "As a bank customer, I need to transfer funds so that I can improve security",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Improve security",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C7-11695",
+        "story_text": "As a store owner, I would like to search products to save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Save money - unclear how searching products relates to saving money",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4988",
+        "story_text": "As a buyer, I would like to checkout to find desired items",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Checkout process details, desired items criteria",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-3504",
+        "story_text": "As a patient, I would like to handle patient care to save time",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "handle patient care",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7527",
+        "story_text": "As a network admin, I want to upgrade plan in order to reduce costs with detailed specifications and comprehensive requirements",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "detailed specifications and comprehensive requirements",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-3176",
+        "story_text": "As a user, I want to manage health data so that I can improve patient care",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "manage health data",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-4217",
+        "story_text": "As a medical staff, I need to schedule appointment so I can enhance safety",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Enhance safety",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-323",
+        "story_text": "As a customer, I would like to manage account to meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "manage account to meet financial goals",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10391",
+        "story_text": "As a customer, I want to transfer funds in order to comply with regulations",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Transfer funds to/from where? What are the regulations?",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4565",
+        "story_text": "As a user, I want to access dashboard in order to make informed decisions",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "access dashboard",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7300",
+        "story_text": "As a network admin, I want to access tools so that I can optimize performance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "access tools, optimize performance",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7630",
+        "story_text": "As a user, I need to process requests so I can maintain connectivity",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "processing requests, maintaining connectivity",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4710",
+        "story_text": "As a buyer, I want to add to cart so that I can save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Save money",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-2722",
+        "story_text": "As a nurse, I need to update system so that I can save time",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Update system",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-10826",
+        "story_text": "As a caregiver, I would like to update system to reduce errors",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "update system to reduce errors",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-6480",
+        "story_text": "As a buyer, I need to track order so that I can track delivery",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "The specific details of what tracking the order entails and what tracking the delivery involves",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10068",
+        "story_text": "As a financial advisor, I would like to manage account to meet financial goals",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "manage account to meet financial goals",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C7-12395",
+        "story_text": "As a seller, I would like to leave review to complete purchase",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Leaving a review process, Completing a purchase",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-6175",
+        "story_text": "As a buyer, I would like to track order to track delivery",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "tracking order or tracking delivery",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-11343",
+        "story_text": "As a patient, I want to prescribe medication in order to improve patient care",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Prescribing medication process, specific actions involved in prescribing",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-8926",
+        "story_text": "As a customer, I want to check data usage so that I can resolve issues",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "check data usage",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-5165",
+        "story_text": "As a user, I need to process payments so I can make informed decisions",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "Processing payments - what does this entail? What type of payments? What decisions are being made?",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-5234",
+        "story_text": "As a customer, I want to track order so that I can save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "What does tracking an order entail? Is it just monitoring the status or does it involve cost-saving actions?",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9387",
+        "story_text": "As a customer, I want to apply for loan in order to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "The purpose of tracking spending after applying for a loan",
+        "reasoning": "unknown"
+      }
+    ],
+    "metrics": {
+      "precision": 0.425,
+      "recall": 1.0,
+      "f1": 0.5964912280701754
+    }
+  },
+  {
+    "model": "deepseek-chat",
+    "ambiguity_type": "scope",
+    "predictions": [
+      {
+        "story_id": "US-C1-347",
+        "story_text": "As a loan officer, I would like to apply for loan to save time",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"apply for loan\" - unclear if this means initiating a loan application, submitting a completed application, or processing an application; \"to save time\" - ambiguous benefit statement that doesn't specify what process is being optimized",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-8239",
+        "story_text": "As a technician, I would like to update configuration to resolve issues",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update configuration\", \"resolve issues\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-2555",
+        "story_text": "As a user, I need to access records so that I can improve patient care",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"access records\" - unclear what types of records, how many records, what operations are allowed (view, edit, delete), and what level of detail; \"improve patient care\" - overly broad and subjective outcome that doesn't define specific functionality",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-11216",
+        "story_text": "As a doctor, I want to update system so that I can reduce errors",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update system\" - unclear what specific system components or functionality should be updated; \"reduce errors\" - ambiguous about what types of errors (medical, data entry, system, workflow) and by what mechanism",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-1872",
+        "story_text": "As a account holder, I would like to view account balance to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "unknown",
+        "reasoning": "parsing/api error"
+      },
+      {
+        "story_id": "US-C5-9345",
+        "story_text": "As a loan officer, I would like to apply for loan to meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"apply for loan\" - unclear if this means initiating a loan application, processing an application, or something else; \"meet financial goals\" - too vague to define success criteria or specific functionality",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10399",
+        "story_text": "As a account holder, I want to view account balance in order to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"view account balance\" - unclear what balance information is included (current balance, available balance, pending transactions, etc.); \"track spending\" - ambiguous about timeframe (real-time, daily, monthly) and presentation format",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10052",
+        "story_text": "As a user, I need to update information so that I have better improve security with detailed specifications and comprehensive requirements",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update information\" - what specific information? User profile? System settings? Security parameters?; \"better improve security\" - how does updating information improve security? What security aspects?; \"detailed specifications and comprehensive requirements\" - these are vague terms that don't define concrete functionality",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7965",
+        "story_text": "As a subscriber, I would like to process requests to reduce costs",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "The phrases 'process requests' and 'reduce costs' are highly ambiguous. It's unclear what type of requests, how they should be processed, whose costs are being reduced, and what constitutes cost reduction.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9477",
+        "story_text": "As a financial advisor, I need to view account balance so I can comply with regulations",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"view account balance\" and \"comply with regulations\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-2184",
+        "story_text": "As a financial advisor, I need to apply for loan so that I can improve security",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"apply for loan\" - unclear if this means initiating a loan application process, submitting documentation, or completing the entire loan approval workflow; \"improve security\" - ambiguous whether this refers to financial security, data security, system security, or personal financial stability",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-1816",
+        "story_text": "As a investor, I want to apply for loan so that I can meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "unknown",
+        "reasoning": "parsing/api error"
+      },
+      {
+        "story_id": "US-C6-10749",
+        "story_text": "As a nurse, I need to update system so that I can ensure compliance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update system\" - unclear what specific updates are needed; \"ensure compliance\" - undefined what compliance means and to what standards",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7869",
+        "story_text": "As a subscriber, I want to update configuration in order to optimize performance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update configuration\", \"optimize performance\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C8-12542",
+        "story_text": "As a engineer, I would like to handle quality control to meet production targets",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"handle quality control\", \"meet production targets\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C8-12765",
+        "story_text": "As a engineer, I want to manage operations so that I can ensure quality as soon as possible",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": [
+          "manage operations",
+          "ensure quality",
+          "as soon as possible"
+        ],
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9587",
+        "story_text": "As a bank customer, I need to transfer funds so that I can improve security",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "The purpose statement 'so that I can improve security' creates ambiguity about what security improvement is expected from the funds transfer functionality",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C7-11695",
+        "story_text": "As a store owner, I would like to search products to save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"search products\" and \"save money\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4988",
+        "story_text": "As a buyer, I would like to checkout to find desired items",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"checkout to find desired items\" - The purpose of checkout is unclear (finding vs. purchasing); \"desired items\" - scope of what constitutes desired items is undefined",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-3504",
+        "story_text": "As a patient, I would like to handle patient care to save time",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"handle patient care\" - this phrase is extremely broad and undefined; \"save time\" - unclear what specific time-saving goals or metrics are expected",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7527",
+        "story_text": "As a network admin, I want to upgrade plan in order to reduce costs with detailed specifications and comprehensive requirements",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"upgrade plan\" - unclear what type of plan (network bandwidth, service tier, licensing, etc.); \"reduce costs\" - ambiguous success metric without quantification; \"detailed specifications and comprehensive requirements\" - vague about what specifications and requirements are needed",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-3176",
+        "story_text": "As a user, I want to manage health data so that I can improve patient care",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"manage health data\" - this phrase is extremely broad and undefined; \"improve patient care\" - the intended outcome is vague and doesn't specify measurable improvements",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-4217",
+        "story_text": "As a medical staff, I need to schedule appointment so I can enhance safety",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"medical staff\" (undefined role types), \"schedule appointment\" (unspecified appointment types and scheduling parameters), \"enhance safety\" (vague success criteria with unclear safety mechanisms)",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C1-323",
+        "story_text": "As a customer, I would like to manage account to meet financial goals",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"manage account\" and \"meet financial goals\" are highly ambiguous. The term 'manage' could include viewing, updating, depositing, withdrawing, transferring, closing, or setting preferences. 'Financial goals' is extremely broad and undefined.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10391",
+        "story_text": "As a customer, I want to transfer funds in order to comply with regulations",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"transfer funds\" and \"comply with regulations\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4565",
+        "story_text": "As a user, I want to access dashboard in order to make informed decisions",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"access dashboard\", \"make informed decisions\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7300",
+        "story_text": "As a network admin, I want to access tools so that I can optimize performance",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"access tools\" and \"optimize performance\" are highly ambiguous. The term \"tools\" is undefined and could refer to anything from built-in system utilities to third-party applications. \"Optimize performance\" lacks specific metrics, targets, or what aspects of performance need optimization.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-7630",
+        "story_text": "As a user, I need to process requests so I can maintain connectivity",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"process requests\", \"maintain connectivity\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-4710",
+        "story_text": "As a buyer, I want to add to cart so that I can save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "The entire action 'add to cart' and the benefit 'save money' are ambiguous. The story doesn't specify what can be added to cart, under what conditions, or how adding to cart leads to saving money.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C2-2722",
+        "story_text": "As a nurse, I need to update system so that I can save time",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update system\" - unclear what specific system components or data need updating; \"save time\" - vague benefit without specific time-saving mechanisms or measurable outcomes",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C6-10826",
+        "story_text": "As a caregiver, I would like to update system to reduce errors",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"update system\" and \"reduce errors\" are highly ambiguous. It's unclear what specific system components need updating, what type of updates are required, what errors should be reduced, and by how much.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-6480",
+        "story_text": "As a buyer, I need to track order so that I can track delivery",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"track order\" and \"track delivery\" - these terms are vague and could refer to different levels of tracking functionality",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-10068",
+        "story_text": "As a financial advisor, I would like to manage account to meet financial goals",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"manage account\" and \"meet financial goals\" are highly ambiguous. The term 'manage' could include viewing, editing, creating, deleting, or performing transactions. 'Account' is undefined (checking, savings, investment, retirement?). 'Meet financial goals' is a very broad outcome with no defined scope or success criteria.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C7-12395",
+        "story_text": "As a seller, I would like to leave review to complete purchase",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"leave review to complete purchase\" - This phrase creates ambiguity about whether leaving a review is required to complete a purchase, or if it's an optional post-purchase action. The relationship between reviewing and purchase completion is unclear.",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-6175",
+        "story_text": "As a buyer, I would like to track order to track delivery",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "unknown",
+        "reasoning": "parsing/api error"
+      },
+      {
+        "story_id": "US-C6-11343",
+        "story_text": "As a patient, I want to prescribe medication in order to improve patient care",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"prescribe medication\" - unclear if patient is prescribing or being prescribed medication; \"improve patient care\" - overly broad and subjective success criterion",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C4-8926",
+        "story_text": "As a customer, I want to check data usage so that I can resolve issues",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"check data usage\" - unclear what data is being referred to (mobile data, cloud storage, API usage, etc.) and what format the checking should take; \"resolve issues\" - vague about what types of issues and what resolution means",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-5165",
+        "story_text": "As a user, I need to process payments so I can make informed decisions",
+        "true_has_ambiguity": true,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"process payments\" and \"make informed decisions\"",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C3-5234",
+        "story_text": "As a customer, I want to track order so that I can save money",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"track order\" - unclear what tracking means (status updates, location tracking, cost tracking?); \"save money\" - unclear connection between order tracking and saving money",
+        "reasoning": "unknown"
+      },
+      {
+        "story_id": "US-C5-9387",
+        "story_text": "As a customer, I want to apply for loan in order to track spending",
+        "true_has_ambiguity": false,
+        "pred_has_ambiguity": "true",
+        "ambiguous_parts": "\"apply for loan\" and \"track spending\" - these are two distinct functionalities with unclear relationship and scope boundaries",
+        "reasoning": "unknown"
+      }
+    ],
+    "metrics": {
+      "precision": 0.425,
+      "recall": 1.0,
+      "f1": 0.5964912280701754
+    }
+  }
+]

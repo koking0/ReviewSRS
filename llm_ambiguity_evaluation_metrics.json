@@ -1,0 +1,66 @@
+{
+  "Ambiguity Detection": {
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1": 1.0
+  },
+  "Type Classification (Macro-Averaged)": {
+    "Accuracy": 0.6439999999999999,
+    "Precision": 0.3206953806502776,
+    "Recall": 0.5753246753246752,
+    "F1": 0.37954778392734595
+  },
+  "Per-Type Metrics": {
+    "SemanticAmbiguity": {
+      "accuracy": 0.43,
+      "precision": 0.41237113402061853,
+      "recall": 1.0,
+      "f1": 0.5839416058394161,
+      "tp": 40.0,
+      "tn": 3.0,
+      "fp": 57.0,
+      "fn": 0.0
+    },
+    "ScopeAmbiguity": {
+      "accuracy": 0.44,
+      "precision": 0.171875,
+      "recall": 0.7857142857142857,
+      "f1": 0.28205128205128205,
+      "tp": 11.0,
+      "tn": 33.0,
+      "fp": 53.0,
+      "fn": 3.0
+    },
+    "ActorAmbiguity": {
+      "accuracy": 0.39,
+      "precision": 0.019230769230769232,
+      "recall": 0.09090909090909091,
+      "f1": 0.03174603174603175,
+      "tp": 1.0,
+      "tn": 38.0,
+      "fp": 51.0,
+      "fn": 10.0
+    },
+    "DependencyAmbiguity": {
+      "accuracy": 0.96,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0.0,
+      "tn": 96.0,
+      "fp": 1.0,
+      "fn": 3.0
+    },
+    "PriorityAmbiguity": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2.0,
+      "tn": 98.0,
+      "fp": 0.0,
+      "fn": 0.0
+    }
+  }
+}
