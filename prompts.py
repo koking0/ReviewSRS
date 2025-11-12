@@ -209,7 +209,7 @@ Here is the software requirement you have to clarify:
 # ============================================================================
 
 PSEUDOCODE_PROMPT_TEMPLATE = """
-You are a software architect tasked with converting software requirements (user stories) into pseudocode.
+You are a software architect tasked with converting software requirements into pseudocode.
 
 Objective:
 Convert the given software requirement into detailed pseudocode that describes the implementation logic and system behavior.
