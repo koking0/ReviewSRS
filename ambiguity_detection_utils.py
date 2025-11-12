@@ -18,6 +18,15 @@ from sklearn.metrics import confusion_matrix, classification_report
 import warnings
 warnings.filterwarnings('ignore')
 
+# 从 prompts 模块导入提示词配置
+from prompts import (
+    AMBIGUITY_TYPE_CONFIGS,
+    generate_ambiguity_prompt,
+    get_ambiguity_config,
+    get_recommended_sample_size,
+    get_all_ambiguity_types
+)
+
 # 配置信息
 CONFIG = {
     "base_url": "https://api.zhizengzeng.com/v1/",
@@ -30,177 +39,6 @@ DEFAULT_MODELS = [
     # "gemini-2.5-flash",
     "deepseek-chat"
 ]
-
-# ============================================================================
-# 参数化提示词系统
-# ============================================================================
-
-# 标准提示词模板
-PROMPT_TEMPLATE_BASE = """**Background:** {background_definition}
-
-**Common examples of {ambiguity_type_lower} ambiguity include:**
-{examples}
-
-**Role:** You are a professional software requirements analyst specializing in detecting {ambiguity_type_lower} ambiguity in software requirements and user stories.
-
-**Task:** Analyze the following user story and determine if it contains {ambiguity_type_lower} ambiguity.
-
-User Story: "{user_story}"
-
-Please analyze and provide:
-{analysis_points}
-
-Output in JSON format:
-{{
-    "Has {ambiguity_type} Ambiguity": "...",
-    {output_fields}
-}}
-
-**Important Notes:**
-{important_notes}"""
-
-# 各种歧义类型的配置
-AMBIGUITY_TYPE_CONFIGS = {
-    "semantic": {
-        "display_name": "Semantic Ambiguity",
-        "background_definition": """Semantic ambiguity in user stories occurs when words, phrases, or entire sentences can be interpreted in multiple ways due to the multiple meanings of terms, unclear context, or vague expressions. This type of ambiguity is particularly problematic in software requirements as it can lead to different developers implementing different features based on their interpretation.""",
-
-        "examples": """- Example: As a user, I want to manage my account so that I can handle my information.
-  Reasoning: Vague verbs "manage" and "handle" - unclear what specific actions are needed.
-  Suggested Improvement:  As a customer, I want to update my profile information so that I can keep my contact details current.""",
-
-        "analysis_points": """1. **Has Semantic Ambiguity**: "true" if the story contains semantic ambiguity, "false" if it's clear and unambiguous
-2. **Ambiguous Parts**: List specific words/phrases that are ambiguous
-3. **Reasoning**: Brief explanation of why those parts are ambiguous
-4. **Suggested Improvement**: How to make the story clearer""",
-
-        "output_fields": '"Ambiguous Parts": "...",\n    "Reasoning": "...",\n    "Suggested Improvement": "..."',
-
-        "important_notes": """- "Has Semantic Ambiguity" should be exactly "true" or "false" (lowercase)
-- Focus on semantic ambiguity, not other types of ambiguity""",
-
-        "sample_size": 50
-    },
-
-    "scope": {
-        "display_name": "Scope Ambiguity",
-        "background_definition": """Scope ambiguity in user stories occurs when the boundaries, conditions, or extent of functionality are unclear or can be interpreted in multiple ways. This leads to uncertainty about what exactly should be implemented and what the system should or should not do.""",
-
-        "examples": """- Example: As a customer, I want to search for products so that I can find items.
-  Reasoning: Unclear search criteria, filters, or result format - scope is too broad.
-  Suggested Improvement:  As a customer, I want to search for products by name and category with price filters so that I can find items within my budget.""",
-
-        "analysis_points": """1. **Has Scope Ambiguity**: "true" if the story contains scope ambiguity, "false" if it's clear and unambiguous
-2. **Ambiguous Parts**: List specific parts that create scope uncertainty
-3. **Missing Information**: What boundaries, conditions, or limits need clarification
-4. **Suggested Questions**: Questions that would help clarify the scope""",
-
-        "output_fields": '"Ambiguous Parts": "...",\n    "Missing Information": "...",\n    "Suggested Questions": "..."',
-
-        "important_notes": """- "Has Scope Ambiguity" should be exactly "true" or "false"
-- Focus specifically on scope-related ambiguity, not other types
-- Consider whether a developer would have uncertainty about implementation boundaries""",
-
-        "sample_size": 40
-    },
-
-    "actor": {
-        "display_name": "Actor Ambiguity",
-        "background_definition": """Actor ambiguity in user stories occurs when the participants, users, or system roles involved in the story are unclear or can be interpreted in multiple ways. This creates uncertainty about who performs actions, who receives results, and what permissions are required.""",
-
-        "examples": """- Example: As a user, I want to access reports so that I can view data.
-  Reasoning: Generic "user" role - unclear which type of user and what access level.
-  Suggested Improvement:  As a sales manager, I want to access monthly sales reports so that I can review team performance.""",
-
-        "analysis_points": """1. **Has Actor Ambiguity**: "true" if the story contains actor ambiguity, "false" if it's clear and unambiguous
-2. **Ambiguous Roles**: List specific roles or actors that are unclear
-3. **Missing Clarifications**: What role definitions or permissions need to be specified
-4. **Suggested Improvements**: How to make the actor roles more specific""",
-
-        "output_fields": '"Ambiguous Roles": "...",\n    "Missing Clarifications": "...",\n    "Suggested Improvements": "..."',
-
-        "important_notes": """- "Has Actor Ambiguity" should be exactly "true" or "false"
-- Focus specifically on actor/role-related ambiguity
-- Consider whether developers would be uncertain about who performs actions or has permissions""",
-
-        "sample_size": 30
-    },
-
-    "dependency": {
-        "display_name": "Dependency Ambiguity",
-        "background_definition": """Dependency ambiguity in user stories occurs when external dependencies, system integrations, or component relationships are unclear or undefined. This creates uncertainty about what external systems, APIs, or components are required for implementation.""",
-
-        "examples": """- Example: As a user, I want to integrate with the system so that data flows.
-  Reasoning: Unclear which system and what integration dependencies exist.
-  Suggested Improvement:  As a developer, I want to integrate with the CRM API so that customer data syncs automatically.""",
-
-        "analysis_points": """1. **Has Dependency Ambiguity**: "true" if the story contains dependency ambiguity, "false" if dependencies are clear
-2. **External Dependencies**: List external systems or services that are mentioned but unclear
-3. **Missing Integration Details**: What technical details or specifications need clarification
-4. **Suggested Clarifications**: Specific questions to resolve dependency uncertainty""",
-
-        "output_fields": '"External Dependencies": "...",\n    "Missing Integration Details": "...",\n    "Suggested Clarifications": "..."',
-
-        "important_notes": """- "Has Dependency Ambiguity" should be exactly "true" or "false"
-- Focus specifically on external dependencies and integration ambiguity
-- Consider whether developers would need clarification about external systems or APIs""",
-
-        "sample_size": 20
-    },
-
-    "priority": {
-        "display_name": "Priority Ambiguity",
-        "background_definition": """Priority ambiguity in user stories occurs when the importance, urgency, or relative priority of features is unclear or undefined. This creates uncertainty about implementation order, resource allocation, and business value assessment.""",
-
-        "examples": """- Example: As a user, I want enhanced security so that I feel safe.
-  Reasoning: No clear priority or urgency specified - "enhanced" is vague.
-  Suggested Improvement:  As a user, I want two-factor authentication so that my account is protected from unauthorized access.""",
-
-        "analysis_points": """1. **Has Priority Ambiguity**: "true" if the story contains priority ambiguity, "false" if priority is clear
-2. **Ambiguous Priority Statements**: List specific phrases that create priority uncertainty
-3. **Missing Priority Context**: What business value, urgency, or relative importance needs clarification
-4. **Suggested Priority Framework**: How the priority could be clearly defined""",
-
-        "output_fields": '"Ambiguous Priority Statements": "...",\n    "Missing Priority Context": "...",\n    "Suggested Priority Framework": "..."',
-
-        "important_notes": """- "Has Priority Ambiguity" should be exactly "true" or "false"
-- Focus specifically on priority, urgency, and importance ambiguity
-- Consider whether product managers would need clarification for roadmap planning""",
-
-        "sample_size": 20
-    }
-}
-
-
-def generate_ambiguity_prompt(user_story: str, ambiguity_type: str) -> str:
-    """
-    根据歧义类型参数生成对应的提示词
-
-    Args:
-        user_story: 用户故事文本
-        ambiguity_type: 歧义类型（'semantic', 'scope', 'actor', 'acceptance', 'dependency', 'priority', 'technical'）
-
-    Returns:
-        生成的提示词
-
-    Raises:
-        ValueError: 如果ambiguity_type不被支持
-    """
-    if ambiguity_type not in AMBIGUITY_TYPE_CONFIGS:
-        raise ValueError(f"Unknown ambiguity type: {ambiguity_type}. Supported types: {list(AMBIGUITY_TYPE_CONFIGS.keys())}")
-
-    config = AMBIGUITY_TYPE_CONFIGS[ambiguity_type]
-
-    return PROMPT_TEMPLATE_BASE.format(
-        background_definition=config["background_definition"],
-        ambiguity_type_lower=ambiguity_type.lower(),
-        ambiguity_type=config["display_name"],
-        examples=config["examples"],
-        analysis_points=config["analysis_points"],
-        output_fields=config["output_fields"],
-        important_notes=config["important_notes"],
-        user_story=user_story
-    )
 
 class AmbiguityDetector:
     """
@@ -233,7 +71,7 @@ class AmbiguityDetector:
         Returns:
             歧义类型的配置字典
         """
-        return self.ambiguity_config
+        return get_ambiguity_config(self.ambiguity_type)
 
     def get_recommended_sample_size(self) -> int:
         """
@@ -242,7 +80,7 @@ class AmbiguityDetector:
         Returns:
             推荐的样本大小
         """
-        return self.ambiguity_config.get("sample_size", 30)
+        return get_recommended_sample_size(self.ambiguity_type)
 
     def generate_prompt(self, user_story: str) -> str:
         """
