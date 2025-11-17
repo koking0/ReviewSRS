@@ -1,7 +1,7 @@
 pandas==2.2.3
 openai==1.109.1
 ollama==0.6.0
-# torch==2.9.0+cu126
+torch==2.9.1+cu126
 transformers==4.57.1
 hf-xet==1.2.0
 sentence_transformers==5.1.2
